@@ -11,9 +11,6 @@
 
 </head>
 <body>
-    <h1>Dr Aviation</h1>
-
-    
     <div class="container">
         <div class = "flex">
             <select id = "selectedCity">  
@@ -53,13 +50,16 @@
         </div>
 
         <div id = "dashBoard"> 
-            <div>
+            <div class="dashBordLabelsDiv">
                 <h6 id = "distance">Flight Km's</h6>
                 <h6 id = "altitude">Altitude</h6>
                 <h6 id = "displaySpeed">Speed: 0km/h</h6>
                 <h6 id = "deg">Deg": 0</h6>
             </div>
-            <div>
+            <div id="gpsDiv">
+                <img src="./img/map.jpg" alt="map" id="gps" />
+            </div>
+            <div class="dashBordLabelsDiv">
                 <h6 id = "min">Flight Time</h6>
                 <h6 id = "horizontal">horizontal Mapp:</h6>
                 <h6 id = "vertical">Vertical Mapp:</h6>
@@ -67,7 +67,7 @@
             </div>
 
         </div>
-        <label id = "info"></label>
+        <label id = "info" class="info"></label>
         <div style = "text-align:center">
         <label >Speed</label><br>
         <input type="range" min="250" max="1200" value="0" class="slider" id="speedRange">

@@ -5,8 +5,8 @@ import {getZoom} from "./zoom.js"
 
 var degreeFlight = 0;
 var plane = document.getElementById("plane");
-plane.style.left="104px";
-plane.style.top="75px";
+plane.style.left="113px";
+plane.style.top="96px";
 var verticalPositionPX =  document.getElementById("vertical");
 var horizontalPositionPX =  document.getElementById("horizontal")
 
@@ -45,7 +45,7 @@ function startFlight(){
         startTime=false;
         setInterval(() => {
             drawTraject()
-        }, 5000);
+        }, 1000);
 
     }
 }

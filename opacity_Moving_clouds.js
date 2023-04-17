@@ -31,8 +31,8 @@ c3.style.width = 600
 c3.style.height = 350
 
 
-c4.style.width = 300
-c4.style.height = 200
+c4.style.width = 500
+c4.style.height = 1000
 
 
 

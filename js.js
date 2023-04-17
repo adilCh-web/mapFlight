@@ -5,7 +5,6 @@ import { speeddown,speedup,planeLanding, getSpeed} from './controlSpeed_and _Lan
 
 import {moving} from "./opacity_Moving_clouds.js"
 import {zoomIn,zoomOut} from "./zoom.js"
-import { firing } from './img/fire.js';
 
 
 
@@ -13,7 +12,7 @@ import { firing } from './img/fire.js';
 
 const cities = ["Betina","Rocafull","Bahara","Nohinissi","Kendall","Gropi","Anfochi","Zeer","Elise","Dassdord","Trifpunkt","Citadelle","Rejdenessen","kolayb","Tayma","Nabihalia","Bahara"]
 
-document.getElementById("img").width = 2400
+document.getElementById("img").width = 2500
 console.log(document.getElementById("img").height)
 
    
@@ -50,8 +49,6 @@ document.getElementById("landing").addEventListener("click",planeLanding)
 
 document.getElementById("randomCity").addEventListener("click",randomCity)
 
-
-document.getElementById("fire").addEventListener("click",()=>{firing(degreeFlight)})
 
 document.getElementById("startFlight").addEventListener("click",()=>{startFlight()})
 

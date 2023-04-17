@@ -42,7 +42,7 @@ function getDistanceFlight()
 {
     intervalDistance = setInterval(()=>
     {
-        totalKm+=document.getElementById("speedRange").value/1200
+        totalKm+=document.getElementById("speedRange").value/700
   
         document.getElementById("distance").innerHTML = "Flight Distance: " + totalKm.toFixed(2) + "KM"
         //console.log(getSpeed())
