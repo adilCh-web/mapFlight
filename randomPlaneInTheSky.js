@@ -3,7 +3,7 @@ import {removePlanes} from "./removeRandomPlane.js"
 import {getZoom} from "./zoom.js"
  
 
- let planesImgs = ["./img/redPlane.png","./img/australian.PNG","./img/blueRed.png","./IMG/airplane-png.png","./img/whitePlane.png","./img/whiteGrey.png"]
+ let planesImgs = ["./img/redPlane.png","./img/australian.PNG","./img/blueRed.png","./img/airplane-png.png","./img/whitePlane.png","./img/whiteGrey.png"]
  function randomPlaneInTheSky()
  {
     for(let x = 0;x<1000;x++)

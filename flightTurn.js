@@ -45,7 +45,7 @@ function startFlight(){
         startTime=false;
         setInterval(() => {
             drawTraject()
-        }, 1000);
+        }, 5000);
 
     }
 }
