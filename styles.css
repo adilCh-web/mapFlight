@@ -215,8 +215,8 @@ input
         display:flex;
         justify-content: space-around;
         flex-direction: column;
-        margin:10px;
         font-size:14px;
+        width:unset;
     }
 }
 
@@ -224,13 +224,12 @@ input
 
 #gps{
     width:250px;
-    display:block;
-    border:5px solid orangered;
-    
+    display:block  
 }
 
 #gpsDiv{
     position:relative;
+    width:250px;
 }
 
 #localisation{
