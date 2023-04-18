@@ -31,7 +31,7 @@ body
 }
 
 h6{
-    color:rgb(0, 255, 0);
+    color:red /*rgb(0, 255, 0);*/;
     margin-left:10px;
 }
 #map{
@@ -57,7 +57,7 @@ h6{
 
 label, input
 {
-    color:green;
+    color:red;
     margin-top:10px;
     text-align: center;
 }
@@ -105,7 +105,7 @@ ul, #dashBoard ,.flex
 {
     text-align: center;
     color:white;
-    border:2px solid green;
+    border:2px solid red;
     padding:10px;
     margin-top: 10px;
 }
@@ -121,7 +121,7 @@ ul, #dashBoard ,.flex
     height:50px;
     width:50px;
     border-radius: 90px;
-    border:2px green solid;
+    border:2px red solid;
 }
 
 .randomPlane{
@@ -156,7 +156,7 @@ input
 {
     width:300px;
     margin:auto auto;
-    background-color: green;
+    background-color: red;
 }
 
 .info
@@ -176,7 +176,7 @@ input
 #startFlight{
     margin:2.5px auto;
     display:block;
-    background-color: green;
+    background-color: red;
     color:white;
 }
 
@@ -218,7 +218,7 @@ input
         flex-direction: column;
         font-size:10px;
         z-index: 1000;
-        background-color: grey;
+
         margin: auto 2px 
     }
 
